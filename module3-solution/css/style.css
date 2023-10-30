@@ -1,0 +1,41 @@
+
+.box{
+    width: auto;
+    height: auto;
+    background-color: #dadaf8;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    color: rgb(100, 87, 244);
+}
+.box h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+.box p{
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
+}
+
+@media screen and (min-width: 992px) {
+    .box{
+        width: 30%;
+    }
+    
+}
+@media  screen and (max-width: 991px) and (min-width: 768px) {
+    .box{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .box{
+        width: 100%;
+        padding: 20px 30px;
+    }
+}
